@@ -425,4 +425,67 @@ navbar */
   }
 }
 
+/* mediaquery */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 0 5%;
+    }
 
+    .nav-left {
+        gap: 4vw;
+        flex-wrap: wrap;
+    }
+
+    .header {
+        padding: 10vw 5vw 5vw;
+    }
+
+    .header img {
+        position: static;
+        display: block;
+        margin: 0 auto 30px;
+        width: 40vw;
+        max-width: 180px;
+        height: auto;
+    }
+
+    .intro {
+        text-align: center;
+    }
+
+    .intro h2:first-child {
+        font-size: 6vw;
+    }
+
+    .intro h2:nth-child(2) {
+        font-size: 5vw;
+        border-right: 0.5vw solid #0077ff;
+    }
+
+    .intro p {
+        font-size: 4vw;
+    }
+
+    /* About / Education / Gallery / Contact sections */
+    .part2, .edu, .maingallery, .activity, .contact {
+        padding: 8vw 5vw;
+    }
+
+    .about, .edu {
+        max-width: 90%;
+        padding: 5vw;
+    }
+
+    .images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .detail p, .activity p {
+        font-size: 4vw;
+        padding: 3vw;
+    }
+
+
+
+}
